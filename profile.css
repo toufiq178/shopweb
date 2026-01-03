@@ -1,0 +1,35 @@
+header{
+    
+    
+    background-color: rgb(32, 59, 59);
+    border: 12px tr;
+    padding: 100px;
+    border: 12px transparent;
+    border-radius: 7px ;
+    box-shadow: 1px 1px 5pxpx black;
+}
+
+
+.glass{
+
+    font-size: xx-large;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px black;
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+}
+h1{
+
+    font-size: xx-large;
+    margin: 0;   
+}
+.reflection{
+
+    transform: scaleY(-1);
+    opacity: 100;
+    opacity: 0.3;
+    
+}
