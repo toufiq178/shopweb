@@ -1,6 +1,6 @@
 *{
     background-color: #ffc0cb ;
-    padding: 12px;
+    margin: 0px;
 }
 
 img{
@@ -12,13 +12,15 @@ img{
 }
 
 .menu{
-    font-size: x-large;
+    font-size: xx-large;
     justify-content: end;
     text-align: end;
+    background-color: white;
+    padding: 12px;
     border: 4px solid transparent;
     border-radius: 5px 5px;
-    text-shadow: 1px 1px 2px black;
-
+    text-shadow: 1px 1px 2px rgb(126, 124, 124);
+    word-spacing: 20px;
 
 
 }
@@ -42,22 +44,31 @@ img{
 
 .maindiv{
 
+    margin: 12px;
     display: flex;
 }
 .box{
+    margin: 12px;
     width: 50%;
 }
 
 #hlorem{
+        margin: 12px;
+        padding: 12px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         letter-spacing: 1px;
         color: rgb(59, 59, 59);
         text-shadow: 2px 2px 15px #ffffff;
 
 }
+#divbottom{
+    padding: 10px;
+    margin: 20px;
+}
 
 p{
     text-align: justify;
+    padding: 20px;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: x-large;
@@ -67,12 +78,17 @@ p{
 #seemore{
 
     margin: auto;
-    width: 200px;
-    display: block;
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(117, 57, 57);
+    padding: 12px;
     font-size: large;
+    border: 8px solid transparent;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    border-radius: 15px;
     color: white;
+    box-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px rgb(43, 42, 41);
 
 }
