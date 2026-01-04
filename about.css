@@ -63,5 +63,6 @@ h1{
     color: white;
     border: 5px transparent;
     border-radius: 12px ;
+    box-shadow: 1px 1px 2px black;
 
 }
